@@ -1,0 +1,70 @@
+/* global */
+/* este es header */
+.wrap{
+    margin: 20px;
+
+}
+
+.header{
+    background-color:#00AF1C;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+
+}
+
+.header ul{
+    display: flex;
+}
+
+.header li{
+    margin-left: 1rem;
+    list-style: none;
+}
+
+.header nav a{
+    font-size: 15px;
+
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+
+}
+
+/* section home */
+.home h2{
+    color:#3B06D2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+
+.home p{
+    margin: 30px;
+}
+
+.home div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.home div img{
+    margin-left: 20px;
+    border-radius: 15 px;
+
+}
+
+
+
+
