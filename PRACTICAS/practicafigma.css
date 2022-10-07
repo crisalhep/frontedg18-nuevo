@@ -91,6 +91,52 @@
 
 }
 
+.list{
+    margin-left:50px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list ul li{
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.list li:first-child{
+    color: #FF0000;
+}
+
+.list li:nth-child(2){
+    color: #1400FF;
+}
+
+.list li:nth-child(3){
+    color: #D79B00;
+}
+
+.list li:last-child{
+    color: #03B2B2;
+}
+
+.portafolio h2{
+    color:#AAD206 ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+
+.portafolio p{
+    margin: 30px;
+}
+
+.portafolio div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portafolio div img{
+    margin-left: 15px;
+    border-radius: 5px;
+}
 
 
 
