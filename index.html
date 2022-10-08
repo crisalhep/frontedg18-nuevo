@@ -22,31 +22,54 @@
 <meta property="twitter:image" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./indexstylos.css">
     <title>PAGINA PERSONAL</title>
 </head>
 <body>
     <!-- esto es el encabezado -->
-    <header>
-        <nav>
-            <span>
-                LOGO
-            </span>
+    <header class="header">
+        <nav class="nav">
+            <ul>
+            <li>
+                <a href="">TRABAJOS</a>
+            </li>
+            <li>
+                <a href="">SOBRE MI</a>
+            </li>
+            <li>
+                <a href="">CONTACTO</a>
+            </li>
+        </ul>
         </nav>
-    <!-- es una lista -->    
-    <ul>
-        <li><a href="./semana2/inicio.html">INICIO</a></li>
-        <li><a href="./semana2/nosotros.html">NOSOTROS</a></li>
-        <li><a href="./semana2/contacto.html">CONTACTO</a></li>
-        <li><a href="./semana2/formulario.html">FORMULARIO</a></li>
-        <li><a href="./semana2/tablas.html">TABLAS</a></li>
-        <li><a href="./PRACTICAS/paginapersonal.html">PAGINA PERSONAL</a></li>
-        <li><a href="./PRACTICAS/practicafigma.html">PRACTICA FIGMA</a></li>
-        <li><a href="./PRACTICAS/animaciones.html">ANIMACIONES</a></li>
-    </ul>    
     </header>
-    <section>
-        <img src="./PRACTICAS/recursos/gandalf.jpg" alt="">
+    <section class="banner">
+        <div>
+            <h1 class="title">Mi nombre es Cristian Guadalupe</h1>
+            <h2 class="title">Desarrollador Fullstack</h2>
+            <p class="resume">Soy programador en proceso</p>
+            <button class="btn-primary">Download Resumen</button>
+        </div>
+        <div>
+            <img class="img-profile" width="300" src="./PRACTICAS/recursos/gandalf.jpg" alt="">
+        </div>
     </section>
+   <hr>
+   <section>
+    <div class="section-work">
+        <h4 class="title-section">PROGRESS JOB</h4>
+        <div class="card">
+            <div>
+                <a href="semana2/reto2/reto2.html" target="_blank">
+                    <img src="" alt="">
+                </a>
+            </div>
+            <div class="container-detail">
+                <h2>RETO 2 NFT-Design</h2>
+                <h3>Apendiendo HTML-CSS</h3>
+            </div>
+        </div>
+    </div>
+   </section>
     
 </body>
 </html>
