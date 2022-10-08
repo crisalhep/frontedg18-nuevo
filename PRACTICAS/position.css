@@ -1,0 +1,27 @@
+
+.cuadrado{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 50px;
+
+}
+
+.circle{
+    width: 500px;
+    height: 500px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.container{
+    border: 10px solid red;
+    left: 50px;
+    height: 50%;
+    position: absolute;
+    left: 200px;
+}
+
+.home{
+    
+}
