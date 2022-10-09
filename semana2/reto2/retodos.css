@@ -38,7 +38,7 @@ section{
     
 }
 
-.imagen-principal{
+.image-principal{
     border-radius: 10px;
 }
 
@@ -70,9 +70,10 @@ section{
 }
 
 .text-eth{
-    color: hsl(178, 100%, 50%;
+    color: hsl(178, 100%, 50%);
     font-weight: 500;
 }
+
 
 .text-clock{
     color: #fff;
@@ -90,3 +91,5 @@ section{
 .autor{
     margin-left: 15px;
 }
+
+
