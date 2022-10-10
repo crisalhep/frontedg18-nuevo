@@ -1,1 +1,27 @@
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.background-img{
+    width: 1350px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../recursos/image\ figma\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.text-codigo{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+    
+    
+}
