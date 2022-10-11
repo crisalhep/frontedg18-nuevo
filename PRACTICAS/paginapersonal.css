@@ -2,7 +2,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(./recursos/aurora.jpg);
+    background-image: url(../recursos/aurora.jpg);
     background-size: cover;
     background-position: center;
     color: white;
@@ -62,4 +62,24 @@ body{
 .footer-link{
     width: 100%;
 
+}
+
+
+@media only screen and (max-width:480px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    figure{
+        width: 50px;
+        height: 50px;
+        border: solid;
+    }
+
+    .main{
+        background-color: aqua;
+    }
 }

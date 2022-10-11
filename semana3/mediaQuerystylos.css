@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: blue;
+
+}
+
+.section-principal{
+    display: flex;
+}
+
+.section-principal div{
+    width: 100px;
+    height: 100px;
+    border: solid;
+}
+
+.box-one{
+    background-color: yellow;
+}
+
+.box-two{
+    background-color: red;
+}
+
+.box-three{
+    background-color: aqua;
+}
+/* dentro de los elements responsivetenemos 3 medidas standar.
+1200 a 1900 px(desktop) / 900 a 700 px(tablet) / 680 a 480 px(celulares) */
+
+@media only screen and (max-width:480px){
+    body{
+        background-color: blueviolet;
+    }
+
+    .section-principal div{
+        width: 50px;
+        height: 50px;
+        border: solid;
+    }
+
+    .section-principal{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-three{
+        background-color: brown;
+    }
+
+    .box-one{
+        background-color: black;
+    }
+}
