@@ -1,27 +1,112 @@
-
 *{
-    margin: 0px;
-    padding: 0px;
-}
-
-.background-img{
-    width: 1350px;
-    height: 800px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../recursos/image\ figma\ 1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-
-.text-codigo{
-    font-size: 60px;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    
-    
-    
+    margin: 0;
 }
+
+.wrap{
+    margin:auto;
+}
+
+.cabecera{
+    position: relative;
+}
+
+.cabecera h1 ,.cabecera h2{
+    position: absolute;
+    color: #fff;
+}
+
+.cabecera h1 h2{
+    position: absolute;
+}
+
+.cabecera h1{
+    top: 10%;
+    left: 40%;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecera h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color:#FFFFFF;
+    bottom: 25%;
+    left: 15%;
+    line-height: 3rem;
+    margin-bottom: 0;
+    text-align: left;
+    background-color: #7299FE80;
+    border-radius: 10px;
+    padding: 35px;
+}
+
+
+.cabecera figure img{
+    display: block;
+    width: 100%;
+}
+
+/* SOBRE MI*/
+
+.sobre-mi{
+    padding: 30px 40px 70px 40px;
+    background-color:#7299FE;
+
+}
+
+.sobre-mi h2{
+    color:#1D06A7;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sobre-mi p{
+    color: #F8F8F8;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 20px;
+}
+
+.boton{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:white;
+    border-style: none;
+    background-color: #D16FFF;
+    padding: 20px 60px 20px 60px;
+    border-radius: 20px;
+    box-shadow:0px 4px 4px 0px  rgba(0, 0, 0, 0.25);
+}
+
+.boton:hover{
+    background-color: white;
+    color:#D16FFF;
+    font-weight: bold;
+}
+
+.mis-skills{
+    background-color: #9022FF;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.mis-skills h2{
+    text-align: center;
+    color: #26CC4B;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    padding-top: 20px;
+}
+
+.skill-container{
+    width: 100%;
+    margin-left: 60px;
+}
+
