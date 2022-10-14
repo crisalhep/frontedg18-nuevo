@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: 'Comic Neue', cursive;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.4rem;
 }
 
@@ -40,7 +40,7 @@ h1{
 .banner h1{
     width: 100%;
     text-align: center;
-    top: 65px;
+    top: 50px;
 }
 
 .banner h2{
@@ -52,7 +52,7 @@ h1{
     line-height: 2rem;
 }
 
-/*about*/
+/*about me*/
 
 .about-me{
     padding: 34px 42px 72px;
@@ -68,7 +68,8 @@ h1{
 
 .about-me p{
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    
 }
 
 .about-me button{
@@ -94,7 +95,7 @@ h1{
 
 .skills{
     background-color:#9022FF;
-    padding: 34px 65px 88px;
+    padding: 30px 40px 70px 40px;
 }
 
 .skills h2{
@@ -114,7 +115,8 @@ h1{
     grid-gap: 30px
 }
 
-.skills .list-item .list-bar{
+.skills .list-bar,
+.skills .list-bar{
     background-color: white;
     width: 400px;
     height: 20px;
@@ -123,7 +125,7 @@ h1{
 
 .skills .list-bar div{
     height: 20px;
-    background-color: red;
+    background-color:#57EFF9;
     width: 200px;
     border-radius: 20px;
 }
@@ -131,25 +133,49 @@ h1{
 /*portafolio*/
 
 .portafolio{
-    padding: 34px 176px 94px;
-    background-color: yellow;
+    padding: 34px 176px 90px;
+    background-color:#FFD233;
 }
 
 .portafolio h2{
+    color:#00AD84 ;
     text-align: center;
     margin-bottom: 38px;
 }
 
 .portafolio-images{
-    border-radius: 4px;
-    display: flex;
+    border-radius: 10px;
+    display: grid;
     flex-wrap: wrap;
+    grid-template-columns: repeat(4, 1fr);
+    
 }
 
 .portafolio figure img{
-margin: 10px;
+    margin: 10px;
+    align-items: center;
 }
 
 .portafolio figure img:hover{
-    border: solid 1px yellow;
+    border: solid 1.5px #00AD84;
+    cursor: pointer;
 } 
+
+/* contacto */
+
+.contact{
+    padding: 34px 176px 90px;
+    background-color: #1687A0;
+}
+
+.contact h2{
+    color: #FF1B1B;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form{
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+}
