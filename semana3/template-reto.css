@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 960px;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.nav{
+    display: flex;
+}
+
+
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li{
+    margin-left: 15px;
+}
+
+.nav ul a{
+    text-decoration: none;
+}
+
+
+/*ABOUT ME*/
+
+.about-me{
+    border: solid;
+    display: flex;
+}
+
+.about{
+    padding: 20px;
+}
+
+
+
+
+/* PORTAFOLIO */
+
+article{
+    border: solid;
+    width: 220px;
+    height: 220px;
+}
+
+article div{
+    border: solid;
+    border-radius: 8px;
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    top: 3px;
+    left: 7px;
+    background-color: #6D0AD1;
+    display: none;
+
+}
+
+article div:hover{
+    
+}
