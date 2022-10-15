@@ -61,7 +61,7 @@ h1{
 
 .about-me h2{
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     color: #1D06A7;
     
 }
@@ -69,6 +69,7 @@ h1{
 .about-me p{
     color: white;
     margin-bottom: 30px;
+    text-align: center;
     
 }
 
@@ -83,6 +84,7 @@ h1{
     font-size:20px;
     font-weight: bold;
     box-shadow: 10px 2px 20px 0px gray;
+    margin-top:50px;
     
 }
 
@@ -116,18 +118,17 @@ h1{
 }
 
 .skills .list-bar,
+.skills .list-bar div{
+    border-radius: 10px;
+}
+
 .skills .list-bar{
-    background-color: white;
-    width: 400px;
-    height: 20px;
-    border-radius: 20px;
+    background-color: #fff;
 }
 
 .skills .list-bar div{
     height: 20px;
     background-color:#57EFF9;
-    width: 200px;
-    border-radius: 20px;
 }
 
 /*portafolio*/
@@ -140,7 +141,7 @@ h1{
 .portafolio h2{
     color:#00AD84 ;
     text-align: center;
-    margin-bottom: 38px;
+    margin-bottom: 20px;
 }
 
 .portafolio-images{
@@ -159,13 +160,41 @@ h1{
 .portafolio figure img:hover{
     border: solid 1.5px #00AD84;
     cursor: pointer;
-} 
+}
+
+
+/*Clientes*/
+
+.clients{
+    padding: 34px 176px 50px;
+    background-color: #3F4E62;
+}
+
+.clients h2{
+    display: flex;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ADFF28;
+}
+
+.clients-images{
+    width: 200%;
+    justify-content: center;
+    display:flex;
+    width: 600px;
+}
+
+.clients figure img{
+    margin: 10px;
+    align-items: center;
+    border-radius: 5px;
+}
 
 /* contacto */
 
 
 .contact{
-    padding:40px 0px 90px 100px;
+    padding: 34px 100px 90px 120px;
     background-color: #1687A0;
 }
 
@@ -175,17 +204,55 @@ h1{
     margin-bottom: 30px;
 }
 
-.form{
+.form {
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(2,1fr);
+    width: 100%; 
+    flex-direction: column;
+    
 }
 
 .form .input{
+    align-content: center;
     margin-top:20px;
-    padding: 10px;
+    padding: 15px;
     border-radius: 5px;
-    width: 80%;
+    width: 90%;
     border: solid 2px #ccc;
 }
 
+.contact .textarea{
+    padding: 50px;
+    border-radius: 5px;
+    width: 95%;
+    border: solid 2px #ccc;
+}
+
+.button-contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.button-send {
+    border: 1px solid;
+    margin-top: 20px;
+    padding: 15px;
+    width: 20%;
+    border: none;
+    background-color: #233451;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    transition:ease-out 0.5s;
+    font-weight: bold;
+    font-size: 20px;
+
+}
  
+.button-send:hover{
+    background-color: #fff;
+    color: #233451;
+}
