@@ -273,34 +273,63 @@ button{
     border: solid white;
 }
 
+.footer div{
+    padding: 0 20px 0 20px
+}
+
 .logo-white{
     filter: brightness(0) invert(100%);
-
+    padding: 20px;
 }
 
-.location{
-    border: solid white;
-    width: 30%;
-    padding 0px;
+.footer .contact{
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+}
+
+.contact img{
+    width: 25px;
+    height: 25px;
+}
+
+.contact p{
+    padding-left: 1rem;
+}
+
+.container-contact{
+    display: flex;
+}
+.container-info{
+    width: 35%;
+}
+
+.enlaces-footer{
+    width: 14%;
+}
+
+.enlaces-footer li{
+    color: #fff;
+    text-decoration: none;
+    line-height: 20px;
+    margin: 10px;
+    list-style: none;
+}
+
+.enlaces-media{
+    width: 35%;
+}
+
+.enlaces-media figure{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+ 
+.enlaces-media figure img{
+    width: 15%;
+    justify-content: right;
+    filter: brightness(0) invert(100%)
 }
 
 
-
-.floatbox button {
-    padding: 1rem;
-    border-radius: 50px;
-    margin-top: 30px;
-    background-color: hsl(322, 100%, 66%);
-    border: none;
-    color: #FFF;
-    font-weight: bold;
-    box-shadow: 0 3px 15px 4px #d3d3d3;
-}
-
-
-.footer div{
-    display: grid;
-    grid-template-columns: (2fr 1fr 1fr 2fr);
-    padding: 30px;
-    
-}
