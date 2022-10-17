@@ -322,14 +322,20 @@ button{
 
 .enlaces-media figure{
     display: flex;
-    justify-content: right;
+    justify-content: center;
     gap: 20px;
 }
  
 .enlaces-media figure img{
-    width: 15%;
+    width: 10%;
     justify-content: right;
     filter: brightness(0) invert(100%)
+}
+
+.copyright p{
+    display: flex;
+    justify-content: right;
+    padding: 10px;
 }
 
 
