@@ -3,20 +3,24 @@
     padding: 0;
 }
 
-.wrapper{
+.wrap{
     width: 960px;
     margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 header{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 30px;
+    border: solid;
 
 }
 
 .nav{
     display: flex;
+    border: solid;
 }
 
 
@@ -69,6 +73,3 @@ article div{
 
 }
 
-article div:hover{
-    
-}

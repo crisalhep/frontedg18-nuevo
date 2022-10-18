@@ -1,0 +1,15 @@
+@import './CSS/modules/variable.css';
+@import './CSS/modules/section.css';
+@import './CSS/modules/animation.css';
+
+
+
+.body{
+    background-color: var(--primary-theme-color);
+    background-color: var(--color-back);
+    color: var(--primary-text-color);
+    font-family: var(--primary-font-family);
+    margin: 0;
+
+}
+
