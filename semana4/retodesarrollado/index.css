@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(228, 39, 97);
+}
+
+.container{
+    display: flex;
+    justify-items: center;
+}
+
+.row{
+    max-width: 880px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.card{
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.card-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-profile{
+    display: flex;
+    align-items: center;
+}
+
+.card-profile img{
+    width: 35px;
+
+}
+
+.card-profile span{
+    padding-left: 10px;
+}
+
+.card-button-plus-minus{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: hsl(228, 39, 97);
+    border-radius: 8px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card-button-plus-minus button{
+    background-color: transparent;
+    border: none;
+}
+
+.card-header-container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card-header div{
+    margin-bottom: 10px;
+}
+
+.text-primary{
+    color: hsl(238, 40%, 52%);
+}
+
+.text-color{
+    color: hsl(211, 10%, 45%, .9)
+}
+
+/* stilos de linea */
+.line-with-card{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+hr{
+    height: 94%;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #ccc;
+    width: 2px;
+    border: 2px;
+
+}
+
+/* estilos de input final */
+
+.comment-container{
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+}
+
+.flex-grow{
+    flex-grow: 15px;
+    padding-right: 15px;
+}
+
+.flex-grow textarea{
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    resize: none;
+}
+
+.comment-profile{
+    width: 50px;
+}
+
+.btn-primary{
+    background-color: hsl(238, 40%, 52%);
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px 30px;
+}
