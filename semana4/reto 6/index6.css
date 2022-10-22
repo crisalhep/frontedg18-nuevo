@@ -94,6 +94,20 @@ nav ul li .home{
     padding-top: 50px;
 }
 
+/*  BUSCADOR  */
+
+main{
+
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    border: solid;
+    margin-top: 330px;
+    height: 150px;
+
+}
 
 
 
