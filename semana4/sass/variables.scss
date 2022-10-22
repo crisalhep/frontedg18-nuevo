@@ -1,0 +1,20 @@
+//sintaxis $nombrevariables
+//medidas.fuentes color y diversas propiedades
+
+$color-principal:rgb(109,214,174);
+$color-red:red;
+$padding-1:10px;
+$bg:green;
+
+
+
+
+
+@mixin alertita($bg:green, $color-text:black){
+    background-color:$bg;
+    padding: $padding-1;
+    border-radius: $padding-1;
+    color: $color-text;
+    margin-bottom: $padding-1;
+
+}
