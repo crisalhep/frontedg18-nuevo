@@ -1,0 +1,30 @@
+//darle valor por defecto
+let count = 0;
+//seleccionar los botones(atraparlo)
+
+const value = document.querySelector("#value");
+const item = document.querySelectorAll(".btn");
+
+item.forEach(function(btn){
+    btn.addEventListener("click",function(e){
+        const styles = e.currentTarget.classList;
+        if(styles.contains("decrease")){
+            count--;
+        }else if(styles.contains("increase")){
+            count++;
+        }else{
+            count=0;
+        }
+
+        if(count>0){
+            value.style.color="white";
+        }
+        if(count<0){
+            value.style.color="white";
+        }
+        if(count === 0){
+            value.style.color = "#222";
+        }
+        value.innerHTML = count
+    })
+})
