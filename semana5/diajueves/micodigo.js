@@ -59,17 +59,17 @@ for (let i = names.length - 1; i >= 0; i--){
 
 }
 */
+/*
+const fCC = "freeCodeCamp"; // Change this line
+let fact = "is cool!"; // Change this line
+fact = "is awesome!";
+console.log(fCC, fact); // Change this line
+*/
 
+const myName = "Cristian Guadalupe";
+const myStr = "My name is " + myName + " an I am well!";
 
-function add(n1,n2){
-    console.log(n1 + n2);    
-}
-
-add(3,2);
-
-
-
-
+console.log(myStr)
 
 
 
