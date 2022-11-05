@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">todoList</h1>
+        <form id="formulario" action="">
+            <input type="text" id="input" placeholder="Ingresa Tarea" class="form-control my-2">
+            <button type="submit" class="btn btn-warning w-100">Agregar</button>
+        </form>
+        <div id="lista-tareas" class="mt-3">lista de tareas</div>
+    </div>
+    <template id="template">
+     <div class="alert alert-warning d-flex justify-content-between">
+        <p class="m-0">nueva tarea</p>
+        <h3 class="m-0">
+            <i class="fas fa-check-circle text-sucess" role="button"></i>
+            <i class="fas fa-minus-circle text-danger" role="button"></i>
+        </h3>
+     </div>
+    </template>
+
+    <script src="https://kit.fontawesome.com/30292a67e2.js" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
